@@ -1,0 +1,21 @@
+{
+    "name": "Tab Title Fetcher",
+    "description": "Fetches the title of the current tab and displays it in the popup.",
+    "version": "1.0",
+    "manifest_version": 3,
+    "permissions": [
+      "tabs"
+    ],
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  },
+    "background": {
+      "service_worker": "background.js"
+    }
+  }
+  
